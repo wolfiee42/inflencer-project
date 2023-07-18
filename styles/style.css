@@ -34,11 +34,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap:50px;
+    gap: 50px;
 }
-.banner-content{
+
+.banner-content {
     width: 50%;
 }
+
 .banner-title {
     font-size: 3.25rem;
     font-weight: 800;
@@ -49,7 +51,7 @@ header {
     font-weight: 600;
 }
 
-.banner-btn{
+.banner-btn {
     background-color: #E02C6D;
     border-radius: 50px;
     padding: 10px 30px;
@@ -58,63 +60,124 @@ header {
     font-size: 1rem;
     margin-top: 20px;
 }
-.banner-img{
+
+.banner-img {
     /* width: auto; */
 }
-.banner-img .camera-pic{
+
+.banner-img .camera-pic {
     background-image: url("../images/Circle\ design.svg");
     background-size: cover;
 
 }
+
 /* header section end */
 
 /* main section starts */
-main{
+main {
     max-width: 75%;
     margin: auto;
 }
 
-/* sponsors section */
-.sponsors{
+/* sponsors section start */
+.sponsors {
     margin: 50px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
-.sponsors img{
+
+.sponsors img {
     padding: 10px;
 }
+
+/* sponsors section ends */
+
+/* products section starts */
+.products-containers {
+    text-align: center;
+    margin: 130px 0px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.products-heading {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin: 30px;
+}
+
+.cards {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.card-title {
+    padding-top: 10px;
+    color: #18191F;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.price {
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.card-description {
+    padding-top: 10px;
+    color: #787885;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* products section ends */
+
 /* main section ends */
 
 
 
 /* medium device */
 @media screen and (max-width: 922px) and (min-width: 577px) {
-    .header-container
-    {
+    .header-container {
         flex-direction: column;
         gap: 50px;
     }
-    .header-container{
+
+    .header-container {
         align-items: center;
     }
-    .sponsors{
+
+    .sponsors {
         flex-wrap: wrap;
     }
 }
 
 /* small device */
 @media screen and (max-width: 576px) {
-    .header-container, .banner
-    {
+
+    .header-container,
+    .banner {
         flex-direction: column;
         gap: 50px;
     }
-    .sponsors{
+
+    .sponsors {
         flex-wrap: wrap;
     }
-    .banner-content{
+
+    .banner-content {
         width: 100%;
     }
 }
