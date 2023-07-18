@@ -142,6 +142,15 @@ main {
     font-weight: 700;
 }
 
+.detail{
+    margin-top: 30px;
+    text-align: end;
+}
+.detail h6{
+    color: #E02C6D ;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
 /* products section ends */
 
 /* main section ends */
