@@ -67,3 +67,29 @@ header {
 
 }
 /* header section end */
+
+
+
+/* medium device */
+@media screen and (max-width: 922px) and (min-width: 577px) {
+    .header-container
+    {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .header-container{
+        align-items: center;
+    }
+}
+
+/* small device */
+@media screen and (max-width: 576px) {
+    .header-container, .banner
+    {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .banner-content{
+        width: 100%;
+    }
+}
