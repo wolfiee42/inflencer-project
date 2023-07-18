@@ -69,13 +69,13 @@ header {
 
 /* main section starts */
 main {
-    max-width: 75%;
     margin: auto;
 }
 
 /* sponsors section start */
 .sponsors {
-    margin: 50px 0px;
+    max-width: 80%;
+    margin: 50px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,8 +90,9 @@ main {
 
 /* products section starts */
 .products-containers {
+    max-width: 80%;
     text-align: center;
-    margin: 130px 0px;
+    margin: 130px auto;
 }
 
 .products {
@@ -148,11 +149,12 @@ main {
 
 /*  */
 .featured-products-container{
+    max-width: 80%;
     display: flex;
     align-items:center;
     justify-content: space-between;
     gap: 50px;
-    margin: 130px 0px;
+    margin: 130px auto;
 }
 .feature-title{
     font-size: 1.75rem;
@@ -251,6 +253,7 @@ footer{
         width: 100%;
     }
     .products{
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
     .featured-products-container{
