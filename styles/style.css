@@ -68,6 +68,21 @@ header {
 }
 /* header section end */
 
+/* main section starts */
+main{
+    max-width: 75%;
+    margin: auto;
+}
+
+/* sponsors section */
+.sponsors{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* main section ends */
+
 
 
 /* medium device */
