@@ -80,6 +80,10 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
+}
+.sponsors img{
+    padding: 10px;
 }
 /* main section ends */
 
@@ -95,6 +99,9 @@ main{
     .header-container{
         align-items: center;
     }
+    .sponsors{
+        flex-wrap: wrap;
+    }
 }
 
 /* small device */
@@ -103,6 +110,9 @@ main{
     {
         flex-direction: column;
         gap: 50px;
+    }
+    .sponsors{
+        flex-wrap: wrap;
     }
     .banner-content{
         width: 100%;
